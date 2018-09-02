@@ -1,0 +1,26 @@
+1. Multiple line input was taken.
+2. This input was containing multiple lines seperated by a full stop and a line('.\n')[not the last line]
+3. This input was splitted using split function and was stored under a variable r.
+4. Now noun chunks were provided (using Spacy library in python) and were stored in a array b thus the subject and object are in b
+5. now again the root was appended to b as displayed in code's #append part
+6. This array b was appended to an empty array c
+7. Thus a matrix is formed.
+8. The third elements of array c are common most of the times. thus they should be extracted to further form the Knowledge Graph.
+9. Thus they were extracted and stored in an array j. 
+9. I assumed that first line is universal one and we can decide according to that.
+10. Thus first element of c array's first elemnt was taken and matched with all others and stord in an array g accordingly
+   similarly with second element of c array's first elementand stored in other array f array.
+example. 0th test case:
+
+            g                	      f 
+	football team	|	football player
+	Juventus	|	Cristiano 
+	Barcelona	| 	Lionel Messi    
+
+11. Now the knowledge graph was printed as follows:
+    :ith element of both arrays g and f were linked and printed 
+    :each element of array f leaving the first one was linked ith first one and printed
+    :each element of array g leaving the first one was linked ith first one and printed
+
+
+That's all for the explanation

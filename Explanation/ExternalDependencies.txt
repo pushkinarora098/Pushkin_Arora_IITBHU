@@ -1,0 +1,3 @@
+All the external packages you need and any other dependencies, please note down here:-
+
+I have to import Spacy library for python 
